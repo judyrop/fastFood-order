@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/amber"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal">
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:elevation="12dp"
+            android:id="@+id/view2"
+            app:cardCornerRadius="40dp"
+            android:layout_centerHorizontal="true"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            android:thicknessRatio="1.9">
+            <ImageView
+                android:layout_height="80dp"
+                android:layout_width="match_parent"
+                android:id="@+id/imageView1"
+                android:src="@drawable/icon"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/julius_sans_one"
+        android:text="Fast Food"
+        android:textAlignment="viewStart"
+        android:textColor="@color/teal_700"
+        android:textSize="36sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/julius_sans_one"
+        android:text="Order"
+        android:textSize="36sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="serves all your needs"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:textStyle="italic" />
+
+</LinearLayout>

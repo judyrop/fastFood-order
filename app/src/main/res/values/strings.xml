@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fast Food Order</string>
+    <string name="snack_bar"><a href="">Snack Bar</a></string>
+    <string name="main_meals"><a href="">Main meals</a></string>
+    <string name="pizza_bar"><a href="">Pizza Bar</a></string>
+    <string name="chicken_eats"><a href="">Chicken eats</a></string>
+    <string name="drinks"><a href="">Drinks</a></string>
+</resources>
