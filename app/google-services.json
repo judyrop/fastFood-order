@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "895555942113",
+    "project_id": "fastfoodapp-795c9",
+    "storage_bucket": "fastfoodapp-795c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895555942113:android:f8d09ab984eb91453ae9a0",
+        "android_client_info": {
+          "package_name": "com.example.fastfoodorderapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895555942113-f07uroj358faae5fqcrpuqtnvodgc8s2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1orKvo63dG2Yoe4fHXwyXisxy-Q2-DTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895555942113-f07uroj358faae5fqcrpuqtnvodgc8s2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
