@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".order_list_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/titleOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Order"
+        android:textSize="24sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/linearOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/titleOrder"
+        android:background="@color/white">
+        <ImageView
+            android:id="@+id/listImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/snack" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/orderItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item"
+                android:textColor="@color/green"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/orderSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Size:"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:id="@+id/orderPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price:"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/confirmbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="confirm order"
+        android:layout_below="@+id/linearOrder"
+        android:layout_margin="10dp"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@color/green"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel Order"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearOrder"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/design_default_color_error"/>
+
+
+</RelativeLayout>
