@@ -5,4 +5,6 @@
     <string name="pizza_bar"><a href="">Pizza Bar</a></string>
     <string name="chicken_eats"><a href="">Chicken eats</a></string>
     <string name="drinks"><a href="">Drinks</a></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
