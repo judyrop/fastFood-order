@@ -33,12 +33,19 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Size:"
+                android:textSize="20sp"/>
+
+
+            <TextView
                 android:id="@+id/price"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Price:"
-                android:textSize="22sp"
-                android:textStyle="bold" />
+                android:textSize="20sp" />
 <!--            <Button-->
 <!--                android:layout_width="wrap_content"-->
 <!--                android:layout_height="wrap_content"-->
