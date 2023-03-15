@@ -32,7 +32,6 @@ class LoginActivity : AppCompatActivity() {
 //            startActivity(Intent(this,ForgotPasswordActivity::class.java))
 //        }
     }
-
     private fun login() {
         val email = binding.emailInput.text.toString()
         val password = binding.passwordInput.text.toString()
