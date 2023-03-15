@@ -29,6 +29,14 @@
       android:layout_below="@id/titleTrack"
       android:layout_margin="10dp"/>
 
+    <ImageView
+        android:id="@+id/arrOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_downward_24"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/orderTr"/>
+
     <TextView
         android:id="@+id/queue"
         android:layout_width="wrap_content"
@@ -38,8 +46,16 @@
         android:layout_centerHorizontal="true"
         android:background="@color/teal_200"
         android:textColor="@color/white"
-        android:layout_below="@+id/orderTr"
+        android:layout_below="@+id/arrOrder"
         android:layout_margin="10dp"/>
+
+    <ImageView
+        android:id="@+id/arrQueuing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_downward_24"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/queue"/>
 
     <TextView
         android:id="@+id/packing"
@@ -49,9 +65,17 @@
         android:textSize="20sp"
         android:layout_centerHorizontal="true"
         android:layout_margin="10dp"
-        android:layout_below="@id/queue"
+        android:layout_below="@id/arrQueuing"
         android:background="@color/amber"
         android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/arrPacking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_downward_24"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/packing"/>
 
     <TextView
         android:id="@+id/transporting"
@@ -62,8 +86,10 @@
         android:textColor="@color/white"
         android:layout_centerHorizontal="true"
         android:background="@color/green"
-        android:layout_below="@+id/packing"
+        android:layout_below="@+id/arrPacking"
         android:textSize="20sp"/>
+
+
 
 
 </RelativeLayout>
