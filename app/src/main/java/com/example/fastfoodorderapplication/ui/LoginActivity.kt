@@ -7,11 +7,14 @@ import android.widget.Toast
 import com.example.fastfoodorderapplication.R
 import com.example.fastfoodorderapplication.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 
 class LoginActivity : AppCompatActivity() {
     lateinit var binding: ActivityLoginBinding
 
     private lateinit var auth: FirebaseAuth
+    val db = Firebase.firestore
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
